@@ -9,7 +9,7 @@ from keyboard.defualt import wrapper_keyboards_home_pages,wrapper_regions_button
 conn = sqlite3.connect("users.db")
 cursor = conn.cursor()
 
-# cursor.execute("CREATE TABLE IF NOT EXISTS users (user_id INTEGER PRIMARY KEY, user_name TEXT, chat_id TEXT, user_region TEXT)")
+cursor.execute("CREATE TABLE IF NOT EXISTS users (user_id INTEGER PRIMARY KEY, user_name TEXT, chat_id TEXT, user_region TEXT)")
 
 
 def get_namoz_vaqti(region):
