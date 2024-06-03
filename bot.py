@@ -2,7 +2,7 @@ import logging
 import asyncio
 from aiogram import Bot, Dispatcher, executor
 from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-API_TOKEN = '6460569427:AAEUO5_jJFTRfZ1SzbRJu0lOiHStuI_VGaY'
+API_TOKEN = '7421048776:AAFB6Psfd_kTLW-tLDRigAE-Lw9AB4eL_iY'
 logging.basicConfig(level=logging.DEBUG)
 
 bot = Bot(token=API_TOKEN)
