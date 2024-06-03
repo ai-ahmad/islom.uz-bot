@@ -3,8 +3,6 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 from bot import dp
 import requests
 import sqlite3
-import schedule
-import time
 from keyboard.defualt import wrapper_keyboards_home_pages,wrapper_regions_buttons
 conn = sqlite3.connect("users.db")
 cursor = conn.cursor()
